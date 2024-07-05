@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+a{ 
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+   list-style: none;
+    color: #000000;
+}
+
+i{
+    font-size: 25px;
+    
+}
+
+.mas{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+header{
+    background-color: #000000;
+    border: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+li{
+    
+    margin: 10px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+
+
+
+
+.Logo{
+  display: flex;
+  
+  list-style: none;
+  height: 80px;
+  width: 100px;
+  
+ 
+   
+}
+    
+ main{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.418);
+    padding: 25px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    font-weight: weight;
+    font-style: normal;
+ }
+
+
+ .sbasis{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+ }
+.sbasis-img{
+    flex-basis: 50%;
+    background-image: url();
+    background-size: contain;
+    display: grid;
+    grid-template-columns: repeat(2, 1Fr);
+    
+}
+
+.sbasis-text{
+    flex-basis: 30%;
+    text-align: center;
+
+}
+
+.foto{
+    width: 400px;
+    height: 450px;
+
+}
+
+
+.fotoo{
+    height: 400px;
+    width: 550px;
+}
+
+.largo{
+    width: 1000px;;
+}
+
+
+
+
+.cajamadre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cajamadre:hover{
+    transform: scale(1);
+    transition-duration: 2s;
+}
+
+.hombre2{
+    width: ;
+    height: 565px ;
+    margin: 25px;
+    
+}
+
+.hombre:hover{
+    content: url("hombre.png");
+    height: 565px;
+    margin: 25px;
+    
+}
+
+.mujer{
+    height: 565px ;
+     width:400px ;
+     margin: 25px;
+
+    
+}
+
+.mujer:hover{
+    content: url("negro.png");
+    
+
+}
+
+.verde{
+    height: 565px ;
+    width:  ;
+    margin: 25px;
+
+}
+
+.verde:hover{
+    content: url(verde.png);
+}
+
+.rojo{
+    height: 565px;
+    margin: 25px;
+}
+
+.rojo:hover{
+    content: url(rojo.png);
+}
+
+.rosita{
+height: 565px;
+margin: 25px;
+
+}
+
+.rosita:hover{
+    content: url(rositaclaro.png);
+}
+
+.maron{
+    height: 565px;
+    margin: 25px;
+}
+
+.maron:hover{
+    content: url(maron.png);
+}
+
+.PERSONAS{
+    display: flex;
+    justify-content: center;
+    
+    margin: 25px;
+    
+}
+
+.PERSONASMUJERES{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+h2{
+    font-size: 100px;
+    justify-content: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+}
+
+h3{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.perfumemarino:hover{
+    content: url("");
+
+}
+
+.perfumemarino{
+    height: 600px;
+    width: 490px;
+    justify-content: center;
+}
+.segundo{
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  .fondos2{
+    height: 450px ;
+    width: 500px;
+  }
+
+  .icono{
+    height: 10vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: left;
+     }
+
+     .PAGINA{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #000000;
+        font-size: 40px;
+        border: #000000;
+        margin: 25px;
+        
+     }
+
+    
+
+.info{
+        display: flex;
+       background-color: rgb(255, 255, 255);
+       
+     }
+
+h3{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+h4{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    justify-content: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info2{
+    width: 5000px;
+}
+
+.info3{
+    width: 300px;
+}
+
+.color{
+    color: #ffffff;
+}

@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: none;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    
+    
+    
+}
+
+
+header{
+    background-color: #000000;
+    border: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    
+    
+    
+}
+
+li{
+    margin: 10px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+    
+}
+
+
+.Logo{
+    display: flex;
+  
+    list-style: none;
+    height: 80px;
+    width: 100px;
+    
+   
+}
+
+main{
+    background-color: #ffffff;
+    padding: 80px;
+    
+}
+
+nav{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+
+.cajaanimal{
+height: 350px;
+width: 300px;
+background-color: #7a7a7a3f;
+border-image: rgb(255, 179, 179);
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border-color: black;
+margin-right: 20px;
+transition-property: backgroun-color,border;
+transition-duration: 1s;
+}
+
+.cajaanimal:hover{
+    background-color: rgb(253, 253, 253);
+    
+}
+   
+.cajacontenedora{
+    display: flex;
+    justify-content: center;
+}
+    
+
+
+span{
+    display: block;
+    padding: 10px;
+    background-color: #c8fdde;
+    margin: 15px;
+    color: rgb(0, 0, 0);
+    width: 260px;
+    
+}
+
+.Producto{
+    height: 300px;
+    width: 400;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h3{
+    font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  font-weight: weight;
+  font-style: normal;
+  color: #000000;
+  }
+
+  h4{
+    font-size: 10px;
+  }
+
+  body{
+    background-color: #ffffff42;
+  }
+
+
+
+@media(max-width:750px){
+    .cajacontenedora{
+        
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:750px){
+    .header{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        
+    }
+}
+
+
+.dos{
+    margin: 5px;
+}
+
+h3{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mucho{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.gris:hover{
+    content: url(gris.png);
+   height: 550px;
+}
+
+.img2{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.celeste:hover{
+    content: url(celeste.png);
+    height: 560px;
+    width: 410px;
+}
+
+.color{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.verde{
+    margin: 10px;
+}
+.verde:hover{
+    content: url(hojaverde.png);
+    margin: 10px;
+}
+
+.hojanegro{
+    margin: 10px;
+    
+}
+.hojanegro:hover{
+    content: url(hojanegro.png);
+   
+}
+
+.hoja{
+    margin: 10px;
+}
+.hoja:hover{
+    content: url(hoja.png);
+}
+
+
+.cajapadre2{
+
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    
+
+
+}
+.tatu{
+    margin: 10px;
+}
+.tatu:hover{
+    content: url(tatuaje.png);
+}
+
+.amarillo{
+    margin: 10px;
+}
+.amarillo:hover{
+    content: url(amarillo\ hombre.png);
+    margin: 10px;
+}
+
+.blanco{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.lila{
+    margin: 10px;
+}
+.lila:hover{
+    content: url(lila.png);
+}
+
+.cajapadre{
+    margin: 5px auto;
+    border: #000000;
+    padding: 30px;
+    
+    
+    
+    
+
+}
+
+
+.cajapadre3{
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+    
+   
+    
+
+}
+
+.azul{
+    margin: 10px;
+
+}
+.azul:hover{
+    content: url(azul\ oscuro.png);
+}
+
+.celeste{
+   margin: 10px;
+}
+.celeste:hover{
+    content: url(celestehombre.png);
+    width: 333px;
+}
+
+
+.oscuro{
+    margin: 10px;
+}
+.oscuro:hover{
+    content: url(oscuro.png);
+}
+
+
+.cajamadre{
+    justify-content: center;
+    display: flex;
+ padding: 50px;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+   
+}
+
+.rosita{
+    margin: 10px;
+    
+    
+}
+.rosita:hover{
+    content: url(rositaa.png);
+    height: 550px;
+}
+
+
+.rojo{
+    margin: 10px;
+    height: 555px;
+}
+.rojo:hover{
+    content: url(rojoo.png);
+}
+
+.rojito{
+    margin: 10px;
+
+}
+.rojito:hover{
+    content: url(ROJITO1.png);
+}
+
+.tropical{
+    margin: 10px;
+}
+.tropical:hover{
+    content: url(verdeazul.png);
+}
+
+.dorado{
+    margin: 10px;
+
+}
+.doradohover{
+    content: url(doradoo.png);
+}
+.novedades{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+
+.info{
+    display: flex;
+   background-color: rgb(255, 255, 255);
+   
+ }
+
+h3{
+display: flex;
+justify-content: center;
+margin: 10px;
+}
+
+h4{
+font-size: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+justify-content: center;
+font-size: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info2{
+width: 5000px;
+}
+
+.info3{
+width: 300px;
+}
+
+
+
